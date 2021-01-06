@@ -4,7 +4,9 @@ public class enemie : MonoBehaviour
 {
 
     private bool mort = false;
-   
+
+    public float armor = 10f;
+    public float rm = 10f;
     public float speed = 10f;
     private float health;
     public float starthealth = 100;
@@ -33,9 +35,17 @@ public class enemie : MonoBehaviour
             GetNext();
         }
     }
-    public void TakeDammage(int amount)
+    public void TakeDammage(int amount,bool type)
     {
-        health -= amount;
+        if(type)
+        {
+            health -= amount - rm;
+        }
+        else
+        {
+            health -= amount - armor;
+        }
+        
         HB.fillAmount = (health / starthealth);
         if(health<=0 && !mort)
         {

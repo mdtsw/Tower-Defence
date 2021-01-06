@@ -18,6 +18,7 @@ public class BuildManager : MonoBehaviour
     public GameObject standardTurret;
     public GameObject MissileLauncher;
     public GameObject lanceFlamme;
+    public GameObject clemont;
 
     public turretblueprint turrettobuild;
     private nodes selectednode;

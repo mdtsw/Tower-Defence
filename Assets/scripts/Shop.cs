@@ -5,6 +5,7 @@ public class Shop : MonoBehaviour
     public turretblueprint standardturret;
     public turretblueprint missilelauncher;
     public turretblueprint lanceFlamme;
+    public turretblueprint clemont;
     private BuildManager buildManager;
 
     private void Start()
@@ -24,5 +25,9 @@ public class Shop : MonoBehaviour
     public void SelectLanceFlamme()
     {
         buildManager.SelectTurretToBuild(lanceFlamme);
+    }
+    public void Selectclemont()
+    {
+        buildManager.SelectTurretToBuild(clemont);
     }
 }

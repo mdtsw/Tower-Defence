@@ -9,6 +9,7 @@ public class balle : MonoBehaviour
     public float speed = 70;
     public float Radius = 0f;
     public int dgts = 20;
+    public bool type = false; //false = phys true = mag
     public void Seek(Transform _target)
     {
         target = _target;
@@ -53,7 +54,7 @@ public class balle : MonoBehaviour
         enemie e = enemy.GetComponent<enemie>();
         if(e!= null)
         {
-            e.TakeDammage(dgts);
+            e.TakeDammage(dgts,type);
         }
         else
         {
