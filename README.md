@@ -5,7 +5,7 @@ Bonjour monsieur, avant de lancer le jeu veuillez lire ce qui suit.
 nous commencerons par un "manuel" qui décrit les différentes tour de ce tower défence.
 
 
-///////////////manuel://///////////////
+///////////////manuel/////////////////
 
 tourelles:
 
@@ -24,7 +24,8 @@ serpent: coût 150
 crache plus vite que son ombre
 
 poisson: coût 150
-poisson pistolet, énorme range, des tonnes de dégats 
+poisson pistolet, énorme range, des tonnes de dégats!!! 
+
 ///////////////////////////////////////
 
 maintenant abordons les choses qui fâchent:
