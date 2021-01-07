@@ -11,10 +11,10 @@ public class GameOver : MonoBehaviour
     }
     public void retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex,LoadSceneMode.Single);
     }
     public void menu()
     {
-        SceneManager.LoadScene(Menu);
+        SceneManager.LoadSceneAsync(Menu,LoadSceneMode.Single);
     }
 }

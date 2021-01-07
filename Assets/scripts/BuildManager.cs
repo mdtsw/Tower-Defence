@@ -15,10 +15,12 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
     #endregion
-    public GameObject standardTurret;
-    public GameObject MissileLauncher;
-    public GameObject lanceFlamme;
-    public GameObject clemont;
+    public GameObject robot;
+    public GameObject poisson;
+    public GameObject chat;
+    public GameObject chien;
+    public GameObject serpent;
+
 
     public turretblueprint turrettobuild;
     private nodes selectednode;

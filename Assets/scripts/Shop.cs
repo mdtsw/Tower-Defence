@@ -2,10 +2,11 @@
 
 public class Shop : MonoBehaviour
 {
-    public turretblueprint standardturret;
-    public turretblueprint missilelauncher;
-    public turretblueprint lanceFlamme;
-    public turretblueprint clemont;
+    public turretblueprint chien;
+    public turretblueprint robot;
+    public turretblueprint chat;
+    public turretblueprint poisson;
+    public turretblueprint serpent;
     private BuildManager buildManager;
 
     private void Start()
@@ -14,20 +15,24 @@ public class Shop : MonoBehaviour
     }
 
 
-   public void SelectStandardTurret()
+   public void SelectChien()
     {
-        buildManager.SelectTurretToBuild(standardturret);
+        buildManager.SelectTurretToBuild(chien);
     }
-   public void SelectMissileLauncher()
+   public void SelectRobot()
    {
-       buildManager.SelectTurretToBuild(missilelauncher);
+       buildManager.SelectTurretToBuild(robot);
    }
-    public void SelectLanceFlamme()
+    public void SelectChat()
     {
-        buildManager.SelectTurretToBuild(lanceFlamme);
+        buildManager.SelectTurretToBuild(chat);
     }
-    public void Selectclemont()
+    public void SelectPoisson()
     {
-        buildManager.SelectTurretToBuild(clemont);
+        buildManager.SelectTurretToBuild(poisson);
+    }
+    public void SelectSerpent()
+    {
+        buildManager.SelectTurretToBuild(serpent);
     }
 }

@@ -37,19 +37,25 @@ public class enemie : MonoBehaviour
     }
     public void TakeDammage(int amount,bool type)
     {
+        float dmg;
         if(type)
         {
-            health -= amount - rm;
+            dmg = amount - rm;
         }
         else
         {
-            health -= amount - armor;
+            dmg= amount - armor;
         }
-        
+        if(dmg<0)
+        {
+            dmg = 1;
+        }
+        health -= dmg;
         HB.fillAmount = (health / starthealth);
         if(health<=0 && !mort)
         {
-                dead();
+            mort = true;
+            dead();
         }
     }
     private void dead()
