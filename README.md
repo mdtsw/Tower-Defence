@@ -3,7 +3,8 @@
 Bonjour monsieur, avant de lancer le jeu veuillez lire ce qui suit.
 
 nous commencerons par un "manuel" qui décrit les différentes tour de ce tower défence.
-
+puis le vrai readme.
+notez que le dossier build contient un build déja effectuer.
 
 ///////////////manuel/////////////////
 
