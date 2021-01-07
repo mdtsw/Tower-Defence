@@ -6,6 +6,14 @@ nous commencerons par un "manuel" qui décrit les différentes tour de ce tower 
 puis le vrai readme.
 notez que le dossier build contient un build déja effectuer.
 
+membres du groupe:
+
+Connan Clément
+Gasnier Corentin
+Grandemange Mathis
+Mari Lucas
+Moine Antoine
+
 ///////////////manuel/////////////////
 
 tourelles:
