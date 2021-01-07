@@ -2,9 +2,9 @@
 
 Bonjour monsieur, avant de lancer le jeu veuillez lire ce qui suit.
 
-nous commencerons par un "manuel" qui décrit les différentes tour de ce tower défence.
+nous commencerons par un "manuel" qui décrit les différentes tours de ce tower défence.
 puis le vrai readme.
-notez que le dossier build contient un build déja effectuer.
+notez que le dossier build contient un build déja effectué.
 
 membres du groupe:
 
@@ -39,10 +39,10 @@ poisson pistolet, énorme range, des tonnes de dégats!!!
 
 maintenant abordons les choses qui fâchent:
 
-Je commencerait par dire que ce jeu à été construit en suivant le tutoriel de la chaine tuto fr unity,la playlist tower defence.
-j'ai cependant sauter certain épisodes et donc choisit de ne pas tout implémenter.
+Je commencerai par dire que ce jeu à été construit en suivant le tutoriel de la chaine tuto fr unity,la playlist tower defence.
+j'ai cependant sauté certains épisodes et donc choisi de ne pas tout implémenter.
 
-Nous avons ajouter de plus:
+Nous avons ajouté de plus:
 
 - différentes tours
 - différents ennemis
